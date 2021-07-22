@@ -1,0 +1,55 @@
+*{
+	font-family: monospace;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+}
+body{
+	position: absolute;
+}
+#svg{
+	position: fixed;
+	top: 25vh;
+	left: 30%;
+	
+}
+#svg circle{
+	transition-duration: .05s;
+}
+
+#input{
+	position: fixed;
+	top: 39vh;
+	left: 37.1%;
+	font-size: 2rem;
+	max-width: 200px;text-align: center;
+	width: auto;
+}
+#input:focus{
+	outline: 0;
+}
+
+#btns{
+	position: fixed;
+	top: 49vh;
+	left: 43%;
+	display: flex;
+	justify-content:space-between;
+	width: 130px;
+}
+#start:focus,
+#pause:focus{
+	outline: 0;
+}
+
+#start img{
+	width: 90%;
+}
+#pause img{
+	width: 80%;
+}
+
+
+
